@@ -7,9 +7,11 @@
 
     <title>Eriksminde</title>
     <meta name="description" content="Tekst">
+    <link rel="stylesheet" href="css/style.css">
+
 
     <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="css/style.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/bjk4myu.css">
@@ -19,24 +21,26 @@
 </head>
 
 <body>
-    <header>
-        <!-- Progressbar oppe i toppen som viser hvor langt man er på siden -->
-        <div id="progress"></div>
-    </header>
 
-    <article>
+    <nav class="sidenavi" id="sidebar">
+        <div id="progressbar" class="progressbar"></div> <a href="#section1" class="navlink">Forside </a><a href="#section2" class="navlink"> Udvalg</a><a href="#section3" class="navlink">Mød Mustafa</a><a href="#section4" class="navlink">Historie</a><a href="#section5" class="navlink">Find os i bazaren</a><a href="#section6" class="navlink"> Kontakt</a>
+    </nav>
+
+
+
+    <article class="main">
 
         <div class="video-gradient">
-            <h1>Eriksminde</h1>
+            <img class="picture1" src="images/logo.png" alt="Logo">
         </div>
-        <div class="paper-tore">
+        <div id="top-tore" class="paper-tore">
             <img src="images/paper_tore_up.png" alt="paper tore">
-            <p>Et sted med et kunstnerisk, demokratisk,
-                fagligt og filosofisk afsæt laver skole, hvor mennesker mødes ligeværdigt, trygt og tillidsfuldt.</p>
+            <img id="grape" src="images/Grapes-Transparent-PNG.png" alt="">
+            <p>Oplev et internationalt udvalg af Frugt & Grønt og bliv inspireret til et nyt gastronomisk madeventyr. Med vores brede sortiment kan du opleve et udsnit af madvarer fra alle verdenskroge. </p>
         </div>
 
         <video id="reelVideo" muted loop>
-            <source src="videos/eriksminde_video01.mp4" type="video/mp4">
+            <source src="Videoes/Final-vid-2.0.mp4" type="video/mp4">
         </video>
 
         <section>
@@ -184,6 +188,8 @@
             <a class="book-button" href="#">Besøg os!</a>
         </footer>
     </article>
+
+
 
     <script src="js/script.js"></script>
 
